@@ -19,7 +19,7 @@
     </form>
 
     <div id="numberInputContainer">
-      <form id="downloadForm">
+      <form id="dForm">
         <label for="numberInput"></label>
         <input
           type="number"
@@ -45,7 +45,7 @@
       }
 
       document
-        .getElementById("downloadForm")
+        .getElementById("dForm")
         .addEventListener("submit", function (event) {
           event.preventDefault();
           const number = document.getElementById("numberInput").value;
